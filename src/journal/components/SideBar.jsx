@@ -1,6 +1,6 @@
-import { Box, Divider, Drawer, List, Toolbar, Typography } from "@mui/material"
-import { useState } from "react";
 import { useSelector } from "react-redux"
+
+import { Box, Divider, Drawer, List, Toolbar, Typography } from "@mui/material"
 import { SideBarItem } from "./SideBarItem";
 
 
