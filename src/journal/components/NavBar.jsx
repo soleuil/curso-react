@@ -4,7 +4,7 @@ import { AppBar, Grid, IconButton, Toolbar, Typography } from '@mui/material';
 import { startLogout } from '../../store/auth/thunks';
 
 
-export const NavBar = ({ drawerWidth }) => {
+export const NavBar = ({ drawerWidth = 240 }) => {
 
     const dispatch = useDispatch();
 
